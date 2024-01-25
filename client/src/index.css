@@ -1,7 +1,7 @@
 :root{
-  --clr-dark : #333333;
+  --clr-dark : #434345;
   --clr-link-primary:#007bff;
-  --clr-green: green;
+  --clr-green: #A8DF8E;
 }
 body,
 h1, h2, h3, h4, h5, h6,
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   color: var(--clr-link-primary);
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a:hover {
@@ -71,4 +71,58 @@ img {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }

@@ -7,7 +7,7 @@ const Main = styled.main`
 `;
 
 const Wrapper = (props) => {
-  return <Main className={props.className}>{ props.children }</Main>;
+  return <Main className={props.className} style={props.style}>{ props.children }</Main>;
 };
 
 export default Wrapper;
